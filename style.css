@@ -1,0 +1,121 @@
+/* 🌌 Global background */
+body {
+    background: radial-gradient(
+        1200px circle at top,
+        #1b1f3b,
+        #0f1225 60%
+    );
+    color: #e8ebff;
+    font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+/* 🧭 Header */
+.app-header {
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 64px;
+    margin-bottom: 14px;
+
+    background: rgba(20, 22, 45, 0.65);
+    backdrop-filter: blur(22px);
+    -webkit-backdrop-filter: blur(22px);
+
+    border-bottom: 1px solid rgba(255,255,255,0.08);
+    box-shadow:
+        0 8px 30px rgba(0,0,0,0.45),
+        inset 0 1px 0 rgba(255,255,255,0.05);
+}
+
+/* ✨ Logo Text */
+.logo-glow {
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: 1px;
+
+    background: linear-gradient(
+        135deg,
+        #a78bfa,
+        #22d3ee
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    text-shadow:
+        0 0 14px rgba(167,139,250,0.35),
+        0 0 26px rgba(34,211,238,0.2);
+}
+
+/* 🔥 Hover pulse */
+.logo-glow:hover {
+    text-shadow:
+        0 0 20px rgba(167,139,250,0.6),
+        0 0 36px rgba(34,211,238,0.35);
+}
+
+/* 💬 Chat container */
+.chatbot {
+    height: 75vh !important;
+    max-height: 75vh !important;
+
+    max-width: 92vw;
+    margin: 0 auto 20px auto;
+
+    background: rgba(255,255,255,0.02);
+    border-radius: 20px;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.4);
+}
+
+/* ⚙️ Settings Card */
+.settings-card {
+    background: rgba(255,255,255,0.07);
+    border-radius: 20px;
+    padding: 18px;
+    margin-bottom: 14px;
+
+    backdrop-filter: blur(18px);
+    border: 1px solid rgba(255,255,255,0.14);
+
+    box-shadow:
+        0 10px 32px rgba(0,0,0,0.45),
+        inset 0 1px 0 rgba(255,255,255,0.05);
+}
+
+/* ⚙️ Settings title */
+.settings-title {
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 14px;
+    color: #c7d2fe;
+    letter-spacing: 0.5px;
+}
+
+/* ⚙️ Setting rows */
+.settings-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 9px 0;
+    font-size: 14px;
+    color: #e0e7ff;
+}
+
+/* 🏷️ Badges */
+.settings-badge {
+    background: linear-gradient(
+        135deg,
+        rgba(167,139,250,0.25),
+        rgba(34,211,238,0.25)
+    );
+    padding: 5px 12px;
+    border-radius: 999px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #ffffff;
+
+    box-shadow:
+        0 4px 14px rgba(34,211,238,0.35);
+}

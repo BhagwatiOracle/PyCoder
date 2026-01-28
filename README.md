@@ -64,19 +64,16 @@ python app.py
 # 🎬Demo
 
 <details>
-  <summary><strong>📌 Click to expand Demo Video</strong></summary>
+  <summary><strong>📌 Click to expand Demo</strong></summary>
 
   <br>
 
-  <div align="center">
-    <video width="640" height="360" controls>
-      <source src="assets\demo.mp4" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
-  </div>
+  <p align="center">
+    <img src="assets/demo.gif" width="340" />
+  </p>
 
-  <br>
 </details>
+
 
 
 

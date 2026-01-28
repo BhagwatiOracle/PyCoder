@@ -67,7 +67,7 @@ python app.py
   <summary><strong>📌 Click to expand Demo</strong></summary>
 
   <p align="center">
-    <img src="assets/demo.gif" width="340" />
+    <img src="assets/demo.gif" width="640" />
   </p>
 
 </details>

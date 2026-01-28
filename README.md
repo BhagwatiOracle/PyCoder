@@ -1,27 +1,5 @@
 <p align="center">
-<svg width="400" height="80" viewBox="0 0 400 80" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#a78bfa"/>
-      <stop offset="100%" stop-color="#22d3ee"/>
-    </linearGradient>
-    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="4" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-  </defs>
-  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle"
-        font-family="Arial, Helvetica, sans-serif"
-        font-size="48" font-weight="700"
-        letter-spacing="1"
-        fill="url(#gradient)"
-        filter="url(#glow)">
-    PyCoder
-  </text>
-</svg>
+  <img src="assets/pycoder.png" alt="Pycoder" width="40%">
 </p>
 
 **PyCoder** is an AI-powered chatbot built on a **QLoRA-quantized DeepSeek-Coder-1B** model fine-tuned using **LoRA-based SFT**. It generates high-quality Python code and provides clear, human-readable explanations, all while remaining efficient on low-memory GPU setups.

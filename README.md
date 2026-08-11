@@ -25,7 +25,7 @@
 
 * Primary Task: Python code generation & explanation
 
-* Fine-tuned model: [BhagwatiOracle/PyCoder-QLoRA-v1](https://huggingface.co/Hhsjsnns/PyCoder-QLoRA-v1)
+* Fine-tuned model: [BhagwatiOracle/PyCoder-QLoRA-v1](https://huggingface.co/BhagwatiOracle/PyCoder-QLoRA-v1)
 
 
 
@@ -54,7 +54,7 @@ pip install -r requirements.txt
 
 4️⃣ Run the app
 ```bash
-python app.py
+streamlit run app.py
 ```
 ---
 

@@ -2,7 +2,7 @@
   <img src="assets/pycoder.png" alt="Pycoder" width="40%">
 </p>
 
-**PyCoder** is an AI-powered chatbot built on a **QLoRA-quantized DeepSeek-Coder-1B** model fine-tuned using **LoRA-based SFT**. It generates high-quality Python code and provides clear, human-readable explanations, all while remaining efficient on low-memory GPU setups. [Live Project Link](https://huggingface.co/spaces/Hhsjsnns/PyCoder-V1)
+**PyCoder** is an AI-powered chatbot built on a **QLoRA-quantized DeepSeek-Coder-1B** model fine-tuned using **LoRA-based SFT**. It generates high-quality Python code and provides clear, human-readable explanations, all while remaining efficient on low-memory GPU setups. [Try Model](https://huggingface.co/spaces/Hhsjsnns/PyCoder-V1)
 
 
 # 🏗️ Model Architecture & Training

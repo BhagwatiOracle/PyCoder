@@ -1,0 +1,13 @@
+transformers 
+torch
+tokenizers 
+gradio
+accelerate
+<<<<<<< HEAD
+pydantic
+fastapi
+sqlalchemy
+bitsandbytes>=0.46.1
+=======
+>>>>>>> 460ba81de0ee1891b7f6099a53b69906b66b161a
+

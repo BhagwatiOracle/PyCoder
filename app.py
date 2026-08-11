@@ -1,10 +1,4 @@
-"""
-Streamlit UI for PyCoder — talks to the FastAPI backend in app.py over HTTP,
-the same way the Gradio UI does. Run the API first, then this file.
 
-    python app.py                      # starts FastAPI on :8000
-    streamlit run streamlit_app.py     # starts this UI on :8501
-"""
 
 import os
 

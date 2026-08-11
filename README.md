@@ -25,7 +25,7 @@
 
 * Primary Task: Python code generation & explanation
 
-* Fine-tuned model: [Hhsjsnns/PyCoder-QLoRA-v1](https://huggingface.co/Hhsjsnns/PyCoder-QLoRA-v1)
+* Fine-tuned model: [BhagwatiOracle/PyCoder-QLoRA-v1](https://huggingface.co/Hhsjsnns/PyCoder-QLoRA-v1)
 
 
 
